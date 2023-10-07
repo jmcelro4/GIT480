@@ -1,0 +1,211 @@
+/*
+Brown= #754C29
+LtBrown= #C3996B
+Red= #A60F2D
+*/
+
+html {
+    background-color: darkgrey;
+    padding:25px;
+}
+
+body {
+    width:950px;
+    margin:0 auto;
+    background-color:#C3996B;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: black;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: -50px;
+}
+
+header img{
+    width: 500px;
+    height: 160px;
+    
+}
+
+
+nav, footer {
+    background-color:#A60F2D;
+    color:#ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav li {
+    display:inline;
+    margin: 50px;
+    font-size: 20px;
+}
+
+nav a:visited, nav a:link {
+    text-decoration:none;
+    color:#ffffff;
+}
+  
+nav a:hover {
+    color:#C3996B;
+    font-weight:bold;
+}
+
+main {
+    padding: 0 25px;
+    margin-top: 60px;
+}
+
+section {
+    clear:both;
+    width: 740px;
+    margin-bottom: 95px;
+}
+
+h1 {
+    visibility:hidden;
+}
+
+.display {
+    float:right;
+    margin-left: 100px;
+    margin-right: -150px;
+    border: 5px solid #754C29;
+}
+
+h2 {
+    color: white;
+}
+
+.openTime{
+    float: right;
+    margin-right: 150px;
+    margin-top: -15px;
+}
+table{
+    border: 1px solid ;
+}
+
+td{
+    padding: 20px 20px 20px 0;
+    font-weight: bold;
+}
+
+iframe{
+    border: 5px solid #754C29;
+    background-color: white;
+}
+
+footer{
+    margin-top: 100px;
+    height: 140px;
+    padding-top: 10px;
+}
+
+#socials{
+    float: right;
+    margin-right: 30px;
+}
+#address{
+    margin-left: 30px;
+    
+}
+
+
+#buyIm{
+    display: inline-block;
+    margin-top: 60px;
+}
+
+#buyIm img{
+    width: 295px;
+    height: 350px;
+}
+
+#sell{
+    margin-bottom: 30px;
+}
+
+#buy p{
+    margin-bottom: 30px; 
+}
+
+#bookShop{
+   
+    font-weight: bold;
+    text-decoration:none;
+    border: 5px solid #754C29;
+    background-color: #A60F2D;
+    padding: 20px;
+    color: white;
+}
+
+form {
+    float: right;
+    background-color: #A60F2D;
+    color: white;
+    width: 350px;
+    margin-top: 5px;
+    border: 5px solid #754C29;
+    border-radius: 16px;
+    padding: 10px;
+}
+label {
+    color: white;
+}
+input {
+    display: block;
+    width: 310px;
+    height: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px inset #754C29;
+}
+
+
+#prefEmail, #prefPhone {
+    display: inline;
+    width: 20px;
+    height: 17px;
+}
+#label-block {
+    display: block;
+    margin-top: 10px;
+}
+textarea {
+    border-radius: 5px;
+    width: 335px;
+}
+#submit {
+    width: 200px;
+    font-weight: bold;
+
+}
+#buttons {
+    margin: 0 auto;
+    width: 225px;
+}
+fieldset {
+    width: 300px;
+    border-radius: 5px;
+}
+
+#contactImg{
+    display: inline-block;
+
+    
+}
+
+#contactImg img{
+    width: 350px;
+    height: 450px;
+    border: 5px solid #754C29;
+}
